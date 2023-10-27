@@ -5,7 +5,6 @@ import Modals from '../components/modals/modal'
 
 function Inicial({data}) {
 
-  /* Usestate somente para controle de renderização */
   const [check, setCheck] = useState(true)
   const [modalInfo, setModalInfo] = useState({display:'none', action: '', descript: '', title:''})
   const [task, setTask] = useState({id: '', title:'', description:'', completed: false })
