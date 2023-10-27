@@ -1,0 +1,43 @@
+@use './../../sass/variables.scss' as *;
+
+.modal{
+    position: absolute;
+    display: none;
+    top: 40;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    justify-self: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    height: 350px;
+    font-family: 'raleway';
+
+    h1{
+        margin-top: 55px;
+    }
+    h3{
+        margin-top: 46px;
+    }
+    button{
+        background-color: $caract-color;
+        width: 30%;
+        padding: 20px;
+        margin: 20px;
+        color: white;
+        border: 0;
+        border-radius: 7px;
+        font-size: 20px;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    #button-yes{
+        background-color: aliceblue;
+        color: black;
+        border: 1px solid black;
+    }
+}
