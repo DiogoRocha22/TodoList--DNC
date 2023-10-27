@@ -10,7 +10,7 @@ function Inicial({data}) {
   const [task, setTask] = useState({id: '', title:'', description:'', completed: false })
 
   const AddTask = () => {
-    if(task.description !== ''){
+    if(task.title !== ''){
       data.push(task)
       window.document.getElementById('new-task').value = ''
       setCheck(!check)
